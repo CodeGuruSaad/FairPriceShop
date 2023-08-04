@@ -1,0 +1,24 @@
+GET http://localhost:3000/carts/
+
+###
+
+POST http://localhost:3000/carts/cart/add
+Content-Type: application/json
+
+{
+    "product_id": 1,
+    "quantity": 3
+}
+
+###
+
+POST http://localhost:3000/orders/add
+Content-Type: application/json
+
+{
+    "customer_id": 1
+}
+
+###
+
+GET http://localhost:3000/product/stock//po/email
